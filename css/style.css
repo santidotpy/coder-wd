@@ -1,0 +1,434 @@
+/*
+// @import "../node_modules/bootstrap/scss/bootstrap";
+*/
+/* ===== NAVBAR ===== */
+li, a {
+  font-family: "DM Serif Text", serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: black;
+  text-decoration: none;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  color: black;
+  display: block;
+  text-align: center;
+  margin-top: auto;
+  position: relative;
+  padding: 10px 0px 10px 0px;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+}
+
+.footerContainer {
+  font-size: 24px;
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+  outline: dashed 1px black;
+  /* Center child horizontally*/
+  display: flex;
+  justify-content: center;
+}
+
+.imglinkedin {
+  height: 15px;
+}
+
+.myNameB:hover {
+  font-size: 1.8rem;
+  transition: all 1s ease;
+}
+
+.madeBy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  width: 25% auto;
+  left: 10px;
+  border: 5px double #2f2f2f;
+  padding: 10px 0 0px 0;
+  line-height: 20px;
+}
+
+.spacing {
+  padding: 10px 0 10px 0;
+}
+
+ul.list-unstyled.list-inline {
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f9f7f1;
+  /* ===== TITLE ===== */
+  /* ===== FRONT PAGE ARTICLE ===== */
+  /* ===== FRONT PAGE PIC ===== */
+  /* ===== ALL PICS ===== */
+  /* ===== GRID ===== */
+  /* ===== ENTERTAINMENT ===== */
+  /* ===== FINANCE ===== */
+  /* ===== INTERNATIONAL ===== */
+  /* ===== POLITICS ===== */
+  /* ===== SPORTS ===== */
+  /* ===== TECH ===== */
+  /* =====  ===== */
+  /* =====  ===== */
+}
+body .mainTitle {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 6.5vh;
+  text-transform: uppercase;
+  line-height: 72px;
+  margin-bottom: 20px;
+  margin: auto;
+}
+body .marginForTitle {
+  margin-top: 18vh;
+}
+body .titleFont {
+  font-family: "Playfair Display", serif;
+  padding: 1%;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 4vh;
+}
+body .sizeIcons {
+  font-size: 23px;
+}
+body .bkColor {
+  background-color: #f9f7f1;
+}
+body .noBottomMargin {
+  margin: auto;
+}
+body .metaverse {
+  font-family: "Prata", serif;
+}
+body .smallerMain {
+  width: 40%;
+}
+body .smaller {
+  width: 75%;
+}
+body .borderLine {
+  border-right: solid 1px #aaa9a9;
+}
+body .articleText {
+  font-family: "Baskervville", serif;
+  font-size: 21px;
+  margin-top: 0.8%;
+  margin-bottom: 0.8%;
+  padding: 0.8%;
+  line-height: 1.4;
+  color: black;
+  text-decoration: none;
+  width: 100%;
+}
+body .videoQueen {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+body .centerTweet {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+body .itaPM {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 45%;
+  border-radius: 4px;
+}
+body .congress {
+  width: 40%;
+}
+body .blackNwhite {
+  filter: grayscale(100%);
+}
+body .giveMeColor {
+  transition: 1.5s ease-in-out;
+}
+body .giveMeColor:hover {
+  filter: grayscale(0%);
+  transition: all 1.5s ease;
+}
+body .heading {
+  font-family: "DM Serif Text", serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2px;
+  color: black;
+  text-decoration: underline;
+}
+body .quote {
+  text-transform: capitalize;
+  font-style: italic;
+}
+body .bigTitle {
+  font-weight: 800;
+  font-family: "IM Fell English SC", serif;
+}
+body .paragraph {
+  font-family: "Baskervville", serif;
+  font-size: 21px;
+  text-align: center;
+  padding: 12px;
+  line-height: 1.5;
+  color: black;
+  text-decoration: none;
+}
+body .subTitleBoys {
+  font-size: 1.1rem;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+body .terminalList {
+  font-family: "Zilla Slab Highlight", cursive;
+  font-size: 2.5rem;
+  text-align: center;
+}
+body .theBoysImg {
+  filter: grayscale(100%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 20%;
+  height: 20%;
+  border-radius: 15px;
+}
+body .losMuchachos {
+  width: 70%;
+}
+body .subTitleBoysB {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+body .butcherImg {
+  filter: grayscale(100%);
+  display: block;
+  margin-left: 10% auto;
+  width: 120%;
+  height: 60%;
+  border-radius: 15px;
+}
+body .paragraphB .link {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-style: italic;
+}
+body .imgContainer {
+  display: flex;
+  justify-content: center;
+}
+body .inflation {
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+body .warMapRU {
+  filter: grayscale(100%);
+  display: block;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  border-radius: 15px;
+}
+body .massa {
+  display: block;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border-radius: 15px;
+}
+body .subTitlePM {
+  font-size: 1.2rem;
+}
+body .boris {
+  display: block;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  border-radius: 15px;
+}
+body .itaPMVideo {
+  filter: grayscale(100%);
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body .wCup {
+  filter: grayscale(100%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 30%;
+  height: 20%;
+  border-radius: 15px;
+}
+body .smallerFixture {
+  width: 55%;
+}
+body .card {
+  background-color: #f9f7f1;
+}
+body .cardStadium {
+  width: 46vh;
+}
+body .muskImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 65%;
+  height: 20%;
+  border-radius: 15px;
+}
+body .lengthParagraph {
+  width: 85%;
+}
+body .imgCarousel {
+  width: 89%;
+  height: auto;
+  border-radius: 15px;
+}
+body .backgroundText {
+  display: flex;
+  flex-wrap: wrap;
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+body .backgroundText .padpad {
+  padding: 4px;
+  margin: 0;
+}
+body .subTitle {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-weight: 550;
+  font-size: 1.3rem;
+  color: black;
+  line-height: 55px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+body .normalText {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 95%;
+  font-weight: 450;
+  line-height: 30px;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10px;
+}
+body .cont {
+  width: 200%;
+  height: 100%;
+}
+body .divContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 8%;
+  margin-bottom: 1%;
+}
+body .divContainerE {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 8%;
+  margin-bottom: 1%;
+}
+body .textCont {
+  width: 50%;
+  margin-right: 4%;
+}
+body .textContInt {
+  width: 50%;
+  margin-right: 0;
+}
+body .paragraphB {
+  font-family: "Baskervville", serif;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.5;
+  color: black;
+  text-decoration: none;
+}
+body .underline {
+  text-decoration: underline;
+}
+body .separator {
+  width: 50%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .containerColumns {
+  display: flex;
+  flex-wrap: column wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: center;
+  align-items: center;
+}
+body .containerColumns .space {
+  margin-top: 2%;
+}
+body .someTitle {
+  font-family: "Staatliches", cursive;
+  font-size: 2.5rem;
+  text-align: center;
+}
+body .someOtherTitle {
+  font-family: "Major Mono Display", monospace;
+  font-size: 2.5rem;
+  text-align: center;
+}
+body .firstColumn {
+  border-right: 1px solid #656464;
+}
+body .secondColumn {
+  border-right: 1px solid #656464;
+}
+body .heading .bigTitle {
+  margin-top: 0.4rem;
+}
+body h2 .heading {
+  margin-top: 0.4rem;
+}/*# sourceMappingURL=style.css.map */

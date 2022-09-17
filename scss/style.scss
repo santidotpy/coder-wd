@@ -1,0 +1,409 @@
+
+$newspaper-color: #f9f7f1;
+/*
+// @import "../node_modules/bootstrap/scss/bootstrap";
+*/
+@import "navbar";
+@import "footer";
+@import "mixin";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: $newspaper-color;
+
+
+/* ===== TITLE ===== */
+.mainTitle{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 6.5vh;
+    text-transform: uppercase;
+    line-height: 72px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+.marginForTitle{
+    margin-top: 18vh;
+}
+.titleFont{
+    font-family: 'Playfair Display', serif;
+    padding: 1%;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 4vh;
+
+}
+.sizeIcons{
+    font-size: 23px;
+}
+.bkColor{
+    background-color: $newspaper-color;
+}
+.noBottomMargin{
+    margin: auto;
+}
+  
+/* ===== FRONT PAGE ARTICLE ===== */
+.metaverse{
+    font-family: 'Prata', serif;
+}
+.smallerMain{
+    width: 40%;
+}
+.smaller{
+    width: 75%;
+}
+.borderLine{
+    border-right: solid 1px #aaa9a9;
+}
+
+.articleText{
+    font-family: 'Baskervville', serif;
+    font-size: 21px;
+    margin-top: 0.8%;
+    margin-bottom: 0.8%;
+    padding: 0.8%;
+    line-height: 1.4;
+    color: black;
+    text-decoration: none;
+    width: 100%;
+}
+.videoQueen{
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+.centerTweet{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+/* ===== FRONT PAGE PIC ===== */
+.itaPM{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 45%;
+    border-radius: 4px;
+}
+.congress{
+    width: 40%;
+}
+/* ===== ALL PICS ===== */
+.blackNwhite{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.giveMeColor{
+    transition: 1.5s ease-in-out;
+}
+.giveMeColor{
+    &:hover{
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+        transition: all 1.5s ease;
+    }
+}
+/* ===== GRID ===== */
+
+
+.heading{
+    font-family: 'DM Serif Text', serif;
+    font-weight: 500;
+    font-size:1.5rem;
+    text-align: center;
+    padding: 2px;
+    color: black;
+    text-decoration: underline;
+}
+.quote{
+    text-transform: capitalize;
+    font-style: italic;
+}
+.bigTitle{
+    font-weight: 800;
+    font-family: 'IM Fell English SC', serif;
+}
+.paragraph{
+    font-family: 'Baskervville', serif;
+    font-size: 21px;
+    text-align: center;
+    padding: 12px;
+    line-height: 1.5;
+    color: black;
+    text-decoration: none;
+}
+
+/* ===== ENTERTAINMENT ===== */
+.subTitleBoys{
+    font-size: 1.1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.terminalList{
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.theBoysImg{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 20%;
+    height: 20% ;
+    border-radius: 15px;
+}
+.losMuchachos{
+    width: 70%;
+}
+.subTitleBoysB{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.butcherImg{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    display: block;
+    margin-left: 10% auto;
+    width: 120%;
+    height: 60% ;
+    border-radius: 15px;
+}
+.paragraphB{
+    .link{
+        text-decoration: underline;
+        font-weight: bolder;
+        font-style: italic;
+    }
+}
+/* ===== FINANCE ===== */
+.imgContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.inflation{
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    justify-content:space-around;
+}
+/* ===== INTERNATIONAL ===== */
+.warMapRU{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    border-radius: 15px;
+}
+/* ===== POLITICS ===== */
+.massa{
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-radius: 15px;
+}
+.subTitlePM{
+    font-size: 1.2rem;
+}
+
+.boris{
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    border-radius: 15px;
+}
+.itaPMVideo{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* ===== SPORTS ===== */ 
+.wCup{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 20% ;
+    border-radius: 15px;
+}
+.smallerFixture{
+    width: 55%;
+}
+.card{
+    background-color: $newspaper-color;
+}
+.cardStadium{
+    width: 46vh;
+}
+/* ===== TECH ===== */ 
+.muskImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 65%;
+    height: 20% ;
+    border-radius: 15px;
+}
+.lengthParagraph{
+    width: 85%;
+}
+.imgCarousel{
+            width: 89%;
+            height: auto;
+            border-radius: 15px;
+            }
+            .backgroundText{
+                display: flex;
+                flex-wrap: wrap;
+                background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+                background: rgba(0, 0, 0, 0.5);
+                border-radius: 15px;
+            .padpad{
+                    padding: 4px;
+                    margin: 0;
+                }
+            }
+
+/* =====  ===== */ 
+
+.subTitle{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 550;
+    font-size: 1.3rem;
+    color: black;
+    line-height: 55px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.normalText{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 95%;
+    font-weight: 450;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+}
+.cont{
+    width: 200%;
+    height: 100%;
+}
+.divContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+.divContainerE{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+.textCont{
+    width: 50%;
+    margin-right:4%;
+}
+.textContInt{
+    width: 50%;
+    margin-right:0;
+}
+
+.paragraphB{
+    font-family: 'Baskervville', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 1.5;
+    color: black;
+    text-decoration: none;
+}
+.underline{
+    text-decoration: underline;
+}
+.separator{
+    width:50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerColumns{
+    display: flex;
+    flex-wrap: column wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.containerColumns{
+    .space{
+        margin-top: 2%;
+    }
+}
+.someTitle{
+    font-family: 'Staatliches', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.someOtherTitle{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.firstColumn{
+    border-right: 1px solid #656464;
+}
+.secondColumn{
+    border-right: 1px solid #656464;
+}
+.heading{
+    .bigTitle{
+        margin-top: 0.4rem;
+    }
+}
+h2{
+    .heading{
+        margin-top: 0.4rem;
+    }
+}
+/* =====  ===== */ 
+}
