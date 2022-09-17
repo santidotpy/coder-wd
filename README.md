@@ -1,2 +1,3 @@
 # coder-wd
-Entrega final para el curso de Desarrollo Web
+
+Visit the [Daily Bugle](https://santidotpy.github.io/coder-wd/).
